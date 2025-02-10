@@ -1,0 +1,49 @@
+
+.footer-wrapper{
+    background-color: rgb(46, 46, 44);
+    padding-top: 2.5rem;
+    
+}
+
+.footer-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: yellow;
+    border: 3px solid greenyellow;
+    width: 300px;
+    margin: auto;
+    padding: 1.5rem;
+}
+
+.footer-icon-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+    gap: 2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color:  rgb(250, 199, 30);
+}
+
+.footer-text{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    
+}
+.shop-contact{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center; 
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    gap: 1rem;
+    text-align: center;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}

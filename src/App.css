@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.back{
+    background-image: url('./home-filler.jpeg');
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: -100;
+}
+
+
+
+
+.backbanner{
+    background-image: url('./bannerBcg.jpeg');
+    background-size: cover;
+    height: 410px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-left: 6rem;
+    padding-top: 13rem;
+
+}
+.banner-content{
+    animation: appear 1s ;
+}
+.banner-content button{
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: rgb(250, 178, 43);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.banner-content h1  {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.collection-info{
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+}
+
+.collection-info a{
+    color: orange;
+}
+@keyframes appear{
+    from{
+        opacity: 0;
+        transform: translateY(10%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+
