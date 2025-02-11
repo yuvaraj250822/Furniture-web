@@ -2,28 +2,28 @@ import './products.css'
 
 let collection =[
     {
-        img:"/images/product-1.png",
+        img:"./images/product-1.png",
         rs:"5000"
 
     },
     {
-        img:"/images/product-2.png",
+        img:"./images/product-2.png",
         rs:"8000"
     },
     {
-        img:"/images/product-3.png",
+        img:"./images/product-3.png",
         rs:"15000"
     },
     {
-        img:"/images/product-4.png",
+        img:"./images/product-4.png",
         rs:"3500"
     },
     {
-        img:"/images/product-5.png",
+        img:"./images/product-5.png",
         rs:"9000"
     },
     {
-        img:"/images/product-14.png",
+        img:"./images/product-14.png",
         rs:"11000"
     }
     
@@ -43,9 +43,8 @@ function Products(){
         {collection.map((info,index)=>
         <div className='product'  key={index}>
             <div >
-                     <img src={info.img} alt="products" />
-                     
-         </div>
+                    <img src={info.img} alt="products" /> 
+             </div>
          <div>
             <p>Special Product</p>
             <p>{info.rs}Rs</p>
@@ -54,7 +53,7 @@ function Products(){
         )}      
         </div>
         
-            </div>
+        </div>
         </div>
     )
 }

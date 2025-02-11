@@ -9,12 +9,37 @@ import './ImgSlider.css'
 function ImgSlider(){
    
 let slideImgs=[
-    "/images/company-logo-1.png",
-    "/images/company-logo-2.png",
-    "/images/company-logo-3.png",
-    "/images/company-logo-4.png",
-    "/images/company-logo-5.png",
-    "/images/company-logo-6.png"
+    {
+        id:1,
+        src: "./images/company-logo-1.png"
+        
+    },
+    
+    {   
+        id:2,
+         src:"./images/company-logo-2.png",
+    },
+    {   
+        id:3,
+         src:"./images/company-logo-3.png",
+
+    },
+        
+    {   
+        id:4,
+        src:"./images/company-logo-4.png",
+
+    },
+   {    
+        id:5,
+        src:"./images/company-logo-5.png",
+
+   } ,
+    {   
+        id:6,
+         src:"./images/company-logo-6.png",
+
+    }
 ]
    const [currentIndex,setCurrentIndex]=useState(0);
 
@@ -33,7 +58,9 @@ let slideImgs=[
     
     let goIndex=(index)=>{
         setCurrentIndex(index)
+
     }
+   
     
     return(
         <div className="slide-wrapper">
@@ -46,7 +73,7 @@ let slideImgs=[
         </div>
         <div className="dot-slide">
             {slideImgs.map((slide,index)=>
-                <div key={index}  className="dots" onClick={()=>goIndex(index)}><GoDotFill /></div>
+                <div key={index}  className="dots"  onClick={()=>goIndex(slide.id)}><GoDotFill /></div>
                 )}
         </div>
      </div>

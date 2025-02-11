@@ -3,7 +3,7 @@
     padding: 0;
 }
 .back{
-    background-image: url('./home-filler.jpeg');
+    background-image: url('./images/home-filler.jpeg');
     background-size: cover;
     width: 100%;
     background-attachment: fixed;
@@ -17,7 +17,7 @@
 
 
 .backbanner{
-    background-image: url('./bannerBcg.jpeg');
+    background-image: url('./images/bannerBcg.jpeg');
     background-size: cover;
     height: 410px;
     background-repeat: no-repeat;

@@ -36,8 +36,8 @@
 }
 
 .dots{
-    cursor: pointer;
     color: gray;
+    cursor: pointer;
 }
 
 .dots:hover{
